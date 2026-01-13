@@ -30,10 +30,11 @@ function App() {
         <aside className="sidebar">
           <img className="avatar" src={profileImg} alt="profile" />
           <h2>Nina Wu</h2>
-          <p className="subtitle">Software Engineer</p>
+          <p className="subtitle">Full Stack Software Engineer</p>
 
           <div className="contact">
             <h3>Contact</h3>
+            <p><strong>Open to Relocation</strong> </p>
             <p><strong>Location:</strong> Birmingham, AL</p>
             <p><strong>Email:</strong> nina.sde.123@gmail.com</p>
             <p><strong>Phone:</strong> +1 (205)-952-6015</p>
@@ -408,22 +409,35 @@ function App() {
     </p>
 
     <ul>
-      <li>
-        Developed a full-stack food ordering application using the MERN stack with a dynamic React front end and Node.js / Express backend.
-      </li>
-      <li>
-        Implemented Redux-based state management and responsive UI using HTML and CSS to improve usability across devices.
-      </li>
-      <li>
-        Designed secure REST APIs with JWT-based role-based access control for users and admins.
-      </li>
-      <li>
-        Integrated Stripe for secure payment processing and order checkout.
-      </li>
-      <li>
-        Deployed the application on AWS EC2 with Route 53 and custom domain configuration.
-      </li>
-    </ul>
+  <li>
+    Built a complete food ordering system using the <strong>MERN stack</strong>,
+    with a <strong>React</strong>-based front end and a <strong>Node.js / Express</strong> backend
+    handling core business logic.
+  </li>
+
+  <li>
+    Managed global application state with <strong>Redux</strong> and implemented
+    a responsive UI using <strong>HTML</strong> and <strong>CSS</strong> to ensure
+    smooth usage across desktop and mobile devices.
+  </li>
+
+  <li>
+    Developed <strong>RESTful APIs</strong> secured by <strong>JWT-based</strong>
+    role-based access control, supporting separate permission flows for users
+    and administrators.
+  </li>
+
+  <li>
+    Integrated <strong>Stripe</strong> to support secure online payments and
+    end-to-end checkout workflows from cart to order completion.
+  </li>
+
+  <li>
+    Deployed the application on <strong>AWS EC2</strong>, configured
+    <strong>Route 53</strong>, and connected a custom domain for production use.
+  </li>
+</ul>
+
   </div>
 
 
