@@ -74,10 +74,11 @@ body {
 
 .subtitle {
   color: #666;
-  margin-bottom: 24px;
+  /* margin-bottom: 10px; */
 }
 
 .contact h3 {
+  margin-top: -10px;
   margin-bottom: 10px;
 }
 

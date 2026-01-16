@@ -31,14 +31,12 @@ function App() {
           <img className="avatar" src={profileImg} alt="profile" />
           <h2>Yang Wu</h2>
           <p className="subtitle">Full Stack Software Engineer</p>
-
           <div className="contact">
             <h3>Contact</h3>
             <p><strong>Open to Relocation</strong> </p>
             <p><strong>Location:</strong> Birmingham, AL</p>
             <p><strong>Email:</strong> yang.wu.sde@gmail.com</p>
             <p><strong>Phone:</strong> +1 (205)-835-3844</p>
-
             <p className="contact-block">
               <strong>LinkedIn:</strong>
               <a
