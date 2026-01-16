@@ -105,90 +105,94 @@ function App() {
           </section>
 
           {/* ===== Experience ===== */}
-          <section className="accordion">
-            <div
-              className={`accordion-header ${open.experience ? "open" : ""}`}
-              onClick={() => toggle("experience")}
-            >
-              <span>Experience</span>
-              <span className="arrow">{open.experience ? "▲" : "▼"}</span>
-            </div>
+          {/* ===== Experience ===== */}
+<section className="accordion">
+  <div
+    className={`accordion-header ${open.experience ? "open" : ""}`}
+    onClick={() => toggle("experience")}
+  >
+    <span>Experience</span>
+    <span className="arrow">{open.experience ? "▲" : "▼"}</span>
+  </div>
 
-            {open.experience && (
-              <div className="accordion-body">
-                {/* ===== Internship ===== */}
-                <h3>Software Engineer Internship: Voyce Global, Inc.</h3>
-                <p>Sunrise, FL | May. 2024 – Aug. 2024</p>
+  {open.experience && (
+    <div className="accordion-body">
+      {/* ===== Internship ===== */}
+      <h3>Software Engineer Internship: Voyce Global, Inc.</h3>
+      <p>Sunrise, FL | May 2024 – Aug. 2024</p>
 
-                <ul>
-                  <li>
-                    Built and enhanced front-end features for the client registration
-                    portal and internal dashboards using <strong>React</strong>,{" "}
-                    <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-                    <strong>React-Bootstrap</strong>, and <strong>Stripe</strong>, improving
-                    usability and visual consistency across the application.
-                  </li>
+      <ul>
+        <li>
+          Built and enhanced responsive, component based front end features for
+          the client registration portal and internal dashboards using{" "}
+          <strong>React</strong>, <strong>JavaScript</strong>,{" "}
+          <strong>HTML</strong>, <strong>CSS</strong>,{" "}
+          <strong>React Bootstrap</strong>, and <strong>Stripe</strong>,
+          improving usability and visual consistency across the application.
+        </li>
 
-                  <li>
-                    Helped develop and improve internal dashboards used to manage patient
-                    translation services, contributing to higher user engagement by refining
-                    layouts and interactions.
-                  </li>
+        <li>
+          Helped develop and improve internal dashboards used to manage patient
+          translation services by refining layouts and interactions, making
+          daily workflows clearer and easier to use.
+        </li>
 
-                  <li>
-                    Integrated multiple <strong>RESTful APIs</strong> for client
-                    registration, authentication, and service configuration, enabling
-                    seamless data flow between the React front end and back end services.
-                  </li>
+        <li>
+          Integrated multiple <strong>RESTful APIs</strong> for client
+          registration, authentication, and service configuration, supporting
+          API integration in a client server architecture and ensuring reliable
+          data flow between the React front end and back end services.
+        </li>
 
-                  <li>
-                    Worked closely with team members through <strong>GitHub</strong>, and
-                    used <strong>Jira</strong> to track tasks, coordinate work, and support
-                    on-time project delivery.
-                  </li>
-                </ul>
+        <li>
+          Worked closely with team members using <strong>GitHub</strong> and{" "}
+          <strong>Jira</strong> to track tasks, coordinate work, and support on
+          time delivery in an Agile development environment.
+        </li>
+      </ul>
 
-                {/* ===== Glodon ===== */}
-                <h3>Full-Stack Software Engineer: Glodon Company</h3>
-                <p>Beijing, China | Oct. 2018 – Sep. 2021</p>
+      {/* ===== Glodon ===== */}
+      <h3>Full Stack Software Engineer: Glodon Company</h3>
+      <p>Beijing, China | Oct. 2018 – Sep. 2021</p>
 
-                <ul>
-                  <li>
-                    Developed and maintained construction cost and project management
-                    systems used in regular business operations, working mainly with{" "}
-                    <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
-                    <strong>Node.js</strong>.
-                  </li>
+      <ul>
+        <li>
+          Developed and maintained production internal systems for construction
+          cost and project management, working mainly with{" "}
+          <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
+          <strong>Node.js</strong> to support day to day business operations.
+        </li>
 
-                  <li>
-                    Built <strong>RESTful APIs</strong> with <strong>Node.js</strong> and{" "}
-                    <strong>Express.js</strong> to support core workflows such as project
-                    management, cost calculations, and data handling.
-                  </li>
+        <li>
+          Built and maintained <strong>RESTful APIs</strong> using{" "}
+          <strong>Node.js</strong> and <strong>Express.js</strong>, handling
+          request and response flows, data validation, and core business logic
+          for project management and cost calculations.
+        </li>
 
-                  <li>
-                    Worked with <strong>JWT-based authentication</strong>   and role-based
-                    access control to manage access to project and cost data for different
-                    types of users.
-                  </li>
+        <li>
+          Implemented <strong>JWT</strong> based authentication and role based
+          access control to manage permissions for different user roles and
+          protect project and cost related data.
+        </li>
 
-                  <li>
-                    Created reusable React components and shared UI patterns, making the code
-                    easier to maintain across different modules.
-                  </li>
+        <li>
+          Created reusable React components and shared UI patterns to keep user
+          interfaces consistent and easier to maintain across different
+          modules.
+        </li>
 
-                  <li>
-                    Worked closely with product managers and other engineers to understand
-                    business requirements, supporting automated builds and deployments
-                    through existing <strong>CI/CD</strong> workflows and helping ensure
-                    stable feature releases.
-                  </li>
-                </ul>
-              </div>
-            )}
+        <li>
+          Worked closely with product managers and other engineers to understand
+          business requirements and support automated builds and deployments
+          through existing <strong>CI/CD</strong> workflows, helping ensure
+          stable feature releases.
+        </li>
+      </ul>
+    </div>
+  )}
+</section>
 
-
-          </section>
 
 
 
