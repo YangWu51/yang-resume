@@ -158,7 +158,7 @@ function App() {
 
                 {/* ===== Glodon ===== */}
                 {/* ===== Glodon ===== */}
-                <h3>Full Stack Software Engineer: Glodon Company</h3>
+                <h3>Full Stack Software Engineer: Glodon Company Limited</h3>
                 <p>Beijing, China | Oct. 2018 – Sep. 2021</p>
 
                 <ul>
