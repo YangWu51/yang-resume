@@ -67,8 +67,8 @@ function App() {
 
             {open.summary && (
               <div className="accordion-body">
-                <strong>Full-stack software engineer</strong> with <strong>3+</strong> years of experience building
-                web-based enterprise applications using <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Node.js</strong>.
+                <strong>Full stack software engineer</strong> with <strong>3+</strong> years of experience building
+                web-based enterprise applications using <strong>JavaScript</strong>, <strong>React</strong>, <strong>Angular</strong>,and <strong>Node.js</strong>.
                 Experienced in developing <strong>RESTful APIs</strong> and supporting production workflows.
                 Earned a Master’s degree in Computer Science in 2025.
               </div>
@@ -104,94 +104,102 @@ function App() {
 
           </section>
 
+
           {/* ===== Experience ===== */}
-          {/* ===== Experience ===== */}
-<section className="accordion">
-  <div
-    className={`accordion-header ${open.experience ? "open" : ""}`}
-    onClick={() => toggle("experience")}
-  >
-    <span>Experience</span>
-    <span className="arrow">{open.experience ? "▲" : "▼"}</span>
-  </div>
+          <section className="accordion">
+            <div
+              className={`accordion-header ${open.experience ? "open" : ""}`}
+              onClick={() => toggle("experience")}
+            >
+              <span>Experience</span>
+              <span className="arrow">{open.experience ? "▲" : "▼"}</span>
+            </div>
 
-  {open.experience && (
-    <div className="accordion-body">
-      {/* ===== Internship ===== */}
-      <h3>Software Engineer Internship: Voyce Global, Inc.</h3>
-      <p>Sunrise, FL | May 2024 – Aug. 2024</p>
+            {open.experience && (
+              <div className="accordion-body">
+                {/* ===== Internship ===== */}
+                {/* ===== Internship ===== */}
+                <h3>Software Engineer Internship: Voyce Global, Inc.</h3>
+                <p>Sunrise, FL | May 2024 – Aug. 2024</p>
 
-      <ul>
-        <li>
-          Built and enhanced responsive, component based front end features for
-          the client registration portal and internal dashboards using{" "}
-          <strong>React</strong>, <strong>JavaScript</strong>,{" "}
-          <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-          <strong>React Bootstrap</strong>, and <strong>Stripe</strong>,
-          improving usability and visual consistency across the application.
-        </li>
+                <ul>
+                  <li>
+                    Built and enhanced responsive, component based front end features for the
+                    client registration portal and internal dashboards using{" "}
+                    <strong>React</strong>, <strong>JavaScript</strong>, <strong>HTML</strong>,{" "}
+                    <strong>CSS</strong>, <strong>React Bootstrap</strong>, and{" "}
+                    <strong>Stripe</strong>, improving usability and visual consistency across
+                    the application.
+                  </li>
 
-        <li>
-          Helped develop and improve internal dashboards used to manage patient
-          translation services by refining layouts and interactions, making
-          daily workflows clearer and easier to use.
-        </li>
+                  <li>
+                    Helped develop and improve internal dashboards used to manage patient
+                    translation services by refining layouts and interactions, making daily
+                    workflows clearer and easier to use.
+                  </li>
 
-        <li>
-          Integrated multiple <strong>RESTful APIs</strong> for client
-          registration, authentication, and service configuration, supporting
-          API integration in a client server architecture and ensuring reliable
-          data flow between the React front end and back end services.
-        </li>
+                  <li>
+                    Integrated multiple <strong>RESTful APIs</strong> for client registration,
+                    authentication, and service configuration, supporting API integration in a
+                    client server architecture and ensuring reliable data flow between the
+                    front end and back end services.
+                  </li>
 
-        <li>
-          Worked closely with team members using <strong>GitHub</strong> and{" "}
-          <strong>Jira</strong> to track tasks, coordinate work, and support on
-          time delivery in an Agile development environment.
-        </li>
-      </ul>
+                  <li>
+                    Worked closely with team members using <strong>GitHub</strong> and{" "}
+                    <strong>Jira</strong> to track tasks, coordinate work, and support on time
+                    delivery in an Agile development environment.
+                  </li>
+                </ul>
 
-      {/* ===== Glodon ===== */}
-      <h3>Full Stack Software Engineer: Glodon Company</h3>
-      <p>Beijing, China | Oct. 2018 – Sep. 2021</p>
 
-      <ul>
-        <li>
-          Developed and maintained production internal systems for construction
-          cost and project management, working mainly with{" "}
-          <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
-          <strong>Node.js</strong> to support day to day business operations.
-        </li>
 
-        <li>
-          Built and maintained <strong>RESTful APIs</strong> using{" "}
-          <strong>Node.js</strong> and <strong>Express.js</strong>, handling
-          request and response flows, data validation, and core business logic
-          for project management and cost calculations.
-        </li>
 
-        <li>
-          Implemented <strong>JWT</strong> based authentication and role based
-          access control to manage permissions for different user roles and
-          protect project and cost related data.
-        </li>
 
-        <li>
-          Created reusable React components and shared UI patterns to keep user
-          interfaces consistent and easier to maintain across different
-          modules.
-        </li>
+                {/* ===== Glodon ===== */}
+                {/* ===== Glodon ===== */}
+                <h3>Full Stack Software Engineer: Glodon Company</h3>
+                <p>Beijing, China | Oct. 2018 – Sep. 2021</p>
 
-        <li>
-          Worked closely with product managers and other engineers to understand
-          business requirements and support automated builds and deployments
-          through existing <strong>CI/CD</strong> workflows, helping ensure
-          stable feature releases.
-        </li>
-      </ul>
-    </div>
-  )}
-</section>
+                <ul>
+                  <li>
+                    Developed and maintained construction cost and project management applications used by enterprise clients, building front-end features with{" "}
+                    <strong>Angular</strong> and <strong>TypeScript</strong>, and back-end
+                    services with <strong>Node.js</strong> to support daily business operations.
+                  </li>
+
+                  <li>
+                    Built and maintained <strong>RESTful APIs</strong> using{" "}
+                    <strong>Node.js</strong> and <strong>Express.js</strong>, handling request
+                    and response flows, data validation, and core business logic for project
+                    management and cost calculation workflows.
+                  </li>
+
+                  <li>
+                    Implemented <strong>JWT</strong>-based authentication and role-based access
+                    control to manage permissions for different user roles and protect sensitive
+                    project and cost data.
+                  </li>
+
+                  <li>
+                    Created reusable <strong>Angular</strong> components and shared UI patterns
+                    to keep interfaces consistent and reduce duplication across multiple
+                    modules.
+                  </li>
+
+                  <li>
+                    Worked with product and engineering teams to support stable releases through
+                    existing <strong>CI/CD </strong>workflows, helping ensure reliable
+                    deployments and predictable feature delivery.
+                  </li>
+                </ul>
+
+
+
+
+              </div>
+            )}
+          </section>
 
 
 
