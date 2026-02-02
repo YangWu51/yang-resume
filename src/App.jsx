@@ -164,8 +164,8 @@ function App() {
                 <ul>
                   <li>
                     Developed and maintained construction cost and project management applications used by enterprise clients, building front-end features with{" "}
-                    <strong>Angular</strong> and <strong>Java</strong>, and back-end
-                    services with <strong>Node.js</strong> to support daily business operations.
+                    <strong>Angular</strong> and <strong>TypeScript</strong>, and back-end
+                    services with <strong>Java and Node.js</strong> to support daily business operations.
                   </li>
 
                   <li>
